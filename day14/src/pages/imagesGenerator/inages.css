@@ -1,0 +1,16 @@
+.image-generator{
+    color: aliceblue;
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.imagesearch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 300px;
+    }
+}

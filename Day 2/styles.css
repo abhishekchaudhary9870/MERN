@@ -1,0 +1,152 @@
+#h{
+    background-color: gold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: large;
+  }
+  div{
+    background-color: aqua;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: large;
+  }
+  .heading{
+    background-color: blueviolet;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: large;
+    margin-left: 10px;
+  }
+  .big-text{
+    background-color: aquamarine;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: large;
+  }
+  .Parent{
+    background-color: brown;
+    margin: 16px;
+    padding: 16px;
+    border: 16px 14px 10px;
+    border-style: dotted solid dotted solid;
+    border-color: blue;
+    border-radius: 10px;
+
+  }
+  
+  .Parent{
+    p{
+      background-color: yellow;
+      text-align: center;
+      margin:0 0 0 auto;
+      width: 200px;
+      
+    }
+    span{
+      background-color: aqua;
+    }
+    
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+  } rem is based on the preferences of the users
+   *{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+ 
+
+  .parent{
+    
+    background-color: aquamarine;
+    height: 100%;
+    
+  }
+  .child{
+    
+    background-color: aquamarine;
+    
+   min-height: 100%;
+
+  } */
+   .btn{
+    
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px auto;
+    font-size: 32px;
+    width: 120px;
+  } 
+  .btnsmall{
+    font-size: 2em;
+  } 
+  body{
+    padding: 10px 32px;
+    height: 100vh;
+    width: 100vw;
+  }
+.parent>ul{
+
+ background-color: red;
+   ul:first-child{
+    background-color: blanchedalmond;
+    padding-left: 10px;
+  }
+  ul:last-child{
+    background-color: gold;
+    padding-left: 10px;
+    li:nth-of-type(2){
+      background-color: red;
+    }
+  } */
+.parent{
+  background-color: aqua;
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  padding: 10px;
+}
+.parent1{
+  justify-content: space-between;
+  background-color: aqua;
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+}
+.parent2{
+  justify-content: space-evenly;
+  background-color: aqua;
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+}
+.parent3{
+  justify-content: flex-end;
+  background-color: aqua;
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+}
+.child{
+  background-color: yellowgreen;
+  width: 100px;
+}
+.child{
+   background-color: blanchedalmond;
+  border: 1px solid red;
+  flex-basis: 40px;
+  flex-shrink:0;
+}
+ .searchbox{
+flex-grow: 3;
+flex-shrink: 1;
+ }
+.cart{
+  flex-grow: 1;
+}
+}

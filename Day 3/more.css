@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: red;
+}
+.parent{
+    background-color: yellow;
+    height:100px ;
+    width: 100px;
+    position: sticky;
+    top: 0px;
+    left: 100px;
+}

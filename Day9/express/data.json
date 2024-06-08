@@ -1,0 +1,21 @@
+[
+    {
+        "title": "New philips Vaccum Cleaner",
+        "price": 12000,
+        "id": 1
+    },
+    {
+        "title": "New philips Vaccum Cleaner",
+        "price": 15000,
+        "Stock": 545,
+        "rating": 4,
+        "id": 2
+    },
+    {
+        "title": "New philips Vaccum Cleaner",
+        "price": 15000,
+        "Stock": 545,
+        "rating": 4,
+        "id": 3
+    }
+]

@@ -1,0 +1,27 @@
+.history-main-container{
+    color: black;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.history-card{
+    border: 1px solid grey;
+    padding: 16px;
+    max-width: 300px;
+    /* align-items: center; */
+    p{
+        color: rgb(248, 23, 23);
+    }
+}
+
+.search-box-input{
+    display: block;
+    width: 200px;
+    margin: 16px auto;
+    padding: 4px 8px;
+    
+
+}

@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// const pr2 = new Promise((res, rej)=>{
+//     console.log('Promise 2');
+//     setTime(()=>{
+//       console.log('timeout 2...')
+//     },10000);
+//     console.log('promise 1 completed')
+// }
+
+
+
+console.log("start");
+
+async function callAPI(){
+  const pr = await new Promise((res, rej)=>{
+    console.log('Promise started');
+    setTimeout(()=>{
+        res('done');
+    //   console.log('timeout 1...')
+    },10000);
+  })
+  console.log('Promise 1 completed');
+}
+ callAPI();
+
+
+    </script>
+</body>
+</html>
