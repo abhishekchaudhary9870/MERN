@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 const obj={
     "name":"abhi",
     "lname":"chaudhary"
+=======
+const obj={
+    "name":"abhi",
+    "lname":"chaudhary"
+>>>>>>> 1fe195e9c2a3ab9e9f8d8cbfe8a76a2d1da9e009
 };

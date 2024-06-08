@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 div{
 
     background-color: aqua;
 }
 button:hover{
     background-color: rgb(5, 128, 209);
+=======
+div{
+
+    background-color: aqua;
+}
+button:hover{
+    background-color: rgb(5, 128, 209);
+>>>>>>> 1fe195e9c2a3ab9e9f8d8cbfe8a76a2d1da9e009
 }
